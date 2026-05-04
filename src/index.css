@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: all 0.5s ease;
+}
+
+/* LIGHT MODE */
+body {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+/* DARK MODE */
+.dark body {
+  background: radial-gradient(circle at top, #0a0a0a, #000000);
+  color: white;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 18s linear infinite;
+}
