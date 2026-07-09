@@ -4,6 +4,7 @@ import MovingLine from "./components/MovingLine";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
+import Designs from "./sections/Designs";
 import Blog from "./sections/Blog";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
@@ -17,6 +18,7 @@ export default function App() {
       <About />
       <Skills />
       <Projects />
+      <Designs />
       <Blog />
       <Contact />
       <Footer className="py-6 text-center text-gray-500 text-sm">
