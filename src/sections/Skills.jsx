@@ -13,8 +13,7 @@ import {
 import {
   SiTailwindcss,
   SiMongodb,
-  SiFirebase,
-  SiCanva
+  SiFirebase
 } from "react-icons/si";
 
 export default function Skills() {
@@ -28,9 +27,9 @@ export default function Skills() {
     { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400 text-4xl" /> },
     { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600 text-4xl" /> },
     { name: "Firebase", icon: <SiFirebase className="text-yellow-500 text-4xl" /> },
-    { name: "Canva", icon: <SiCanva className="text-blue-400 text-4xl" /> },
 
-    // SAFE ADOBE REPLACEMENT
+    // Canva & Adobe
+    { name: "Canva", icon: "🎨" },
     { name: "Photoshop", icon: "🖌️" },
     { name: "Illustrator", icon: "🎨" }
   ];
